@@ -1,0 +1,36 @@
+{
+  "name": "sz-btn",
+  "version": "0.1.7",
+  "author": "Proladon",
+  "description": "Just testing createing lib with Vite.",
+  "files": [
+    "dist",
+    "src"
+  ],
+  "main": "./dist/sz-btn.umd.js",
+  "module": "./dist/sz-btn.es.js",
+  "exports": {
+    ".": {
+      "import": "./dist/sz-btn.es.js",
+      "require": "./dist/sz-btn.umd.js"
+    },
+    "./dist/style.css": "./dist/style.css"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.0.5"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^1.2.4",
+    "@vue/compiler-sfc": "^3.0.5",
+    "typescript": "^4.3.2",
+    "vite": "^2.4.0",
+    "vite-plugin-windicss": "^1.2.4",
+    "vue-tsc": "^0.0.24",
+    "windicss": "^3.1.4"
+  }
+}
