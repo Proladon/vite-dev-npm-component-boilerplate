@@ -1,5 +1,4 @@
 import SZButton from './components/button/SZButton.vue'
-import './styles/index.css'
 import { App } from 'vue'
 
 const components = {
@@ -14,7 +13,5 @@ function install(Vue: App) {
 }
 
 export default { install }
-
-// export { default as SZButton } from './components/button/SZButton.vue'
 
 export { SZButton }

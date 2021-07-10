@@ -10,3 +10,10 @@ export default defineComponent({
   name: "SZButton",
 })
 </script>
+
+<style lang="postcss" scoped>
+.sz-btn {
+  @apply cursor-pointer text-xl border border-solid rounded-md border-teal-400;
+  @apply hover: bg-teal-400;
+}
+</style>

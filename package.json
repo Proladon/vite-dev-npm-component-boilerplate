@@ -1,8 +1,9 @@
 {
   "name": "sz-btn",
-  "version": "0.1.7",
+  "version": "0.1.12",
   "author": "Proladon",
   "description": "Just testing createing lib with Vite.",
+  "sideEffects": false,
   "files": [
     "dist",
     "src"
@@ -14,8 +15,9 @@
       "import": "./dist/sz-btn.es.js",
       "require": "./dist/sz-btn.umd.js"
     },
-    "./dist/style.css": "./dist/style.css"
+    "./dist/style.css" : "./dist/style.css"
   },
+  "types": "src/types/index.d.ts",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
